@@ -37,6 +37,7 @@ const handler = nc()
             
             //enviar a imagem do multer para o cosmic
             const image = await uploadImagemCosmic(req);
+            console.log(image)
 
             //salvar no banco de dados
             const usuarioASerSalvo = {
